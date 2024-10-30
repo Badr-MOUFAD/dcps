@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "inv-ddm"
+description = "Inverse problems by denoising diffusion priors"
+version = "0.0.0"
+authors = [
+    { name = "Yazid JANATI EL IDRISSI", email = "janati.yazid@gmail.com" },
+    { name = "Badr MOUFAD", email = "badr-moufad@hotmail.com" },
+]
+dependencies = [
+    "torch",
+    "torchvision",
+    "transformers",
+    "diffusers[torch]",
+    "lpips",
+    "Pillow",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "tqdm",
+    "omegaconf",
+    "tqdm",
+    "PyYAML",
+]
+
+
+[project.optional-dependencies]
+test = ["pytest", "flake8"]

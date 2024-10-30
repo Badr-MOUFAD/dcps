@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - dataset: cats
+  - diffusion: ddim_100
+  - mcg_diff: default
+  - task: colorization
+  - dps: colorization
+  - ddrm: colorization
+
+save_folder: /mnt/data/gabriel/inverse_problem_diffusion_prior
+seed: 30
+plot: false
+save_fig: true
+save_data: false
