@@ -83,6 +83,6 @@ Change the mask ``missing_coordinates`` to consider other completion problems.
 ## Acknowledgement
 
 This work as been supported by [Technology Innovation Institute (TII)](https://www.tii.ae).
-<section align="right">
+<section align="left">
     <img src="material/Technology_Innovation_Institute_Logo.jpg" height="100px" />
 </section>
